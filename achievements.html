@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Achievements</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),
+url("images/background\ \(2\).jpg");
+
+background-size:cover;
+
+padding:40px;
+}
+
+h1{
+text-align:center;
+color:gold;
+margin-bottom:50px;
+}
+
+.container{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+
+padding:30px;
+
+background:#161b22;
+
+color:white;
+
+border-radius:25px;
+
+opacity:0;
+
+transform:translateY(-200px);
+
+animation:fall 1s forwards;
+}
+
+.card:nth-child(2){
+animation-delay:.3s;
+}
+
+.card:nth-child(3){
+animation-delay:.6s;
+}
+
+.card:nth-child(4){
+animation-delay:.9s;
+}
+
+.card:nth-child(5){
+animation-delay:1.2s;
+}
+
+.card:nth-child(6){
+animation-delay:1.5s;
+}
+
+.card:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 25px gold;
+}
+
+@keyframes fall{
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.card h2{
+color:gold;
+margin-bottom:15px;
+}
+
+.back{
+
+display:block;
+
+width:200px;
+
+margin:40px auto;
+
+background:gold;
+
+padding:12px;
+
+text-align:center;
+
+text-decoration:none;
+
+border-radius:40px;
+
+color:black;
+
+font-weight:bold;
+}
+
+.trophy{
+
+font-size:55px;
+
+margin-bottom:15px;
+
+animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+from{
+
+text-shadow:
+0 0 10px gold,
+0 0 20px gold;
+
+}
+
+to{
+
+text-shadow:
+0 0 20px gold,
+0 0 40px gold,
+0 0 60px gold;
+
+}
+
+}
+
+.card{
+
+background:
+linear-gradient(
+135deg,
+#161b22,
+#252f3f);
+
+border:1px solid gold;
+
+}
+
+.card:hover{
+
+transform:
+scale(1.07)
+rotate(2deg);
+
+box-shadow:
+0 0 40px gold;
+
+}
+
+
+.infoo{
+    color: #ffea00;
+    text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>OUR ACHIEVEMENTS</h1>
+
+<div class="container">
+
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+<div class="card">
+
+<div class="trophy">
+🏆
+</div>
+
+<h2>State Topper</h2>
+
+<p>Student Name - 98%</p>
+
+</div>
+
+
+</div>
+
+<div class="infoo">       WE WILL ADD THE IMAGES OF THE INDIVIDUALS AS PER REQUIREMENTS </div>
+
+<a href="index.html" class="back">
+Back Home
+</a>
+
+</body>
+</html>

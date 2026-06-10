@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url("images/background\ \(2\).jpg");
+background-size:cover;
+background-position:center;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:30px;
+}
+
+.about-frame{
+max-width:900px;
+padding:50px;
+border-radius:25px;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("frame-bg.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+transition:.5s;
+box-shadow:0 0 20px rgba(255,215,0,.4);
+}
+
+.about-frame:hover{
+transform:scale(1.03);
+box-shadow:0 0 30px gold;
+}
+
+.about-frame h1{
+color:gold;
+margin-bottom:20px;
+}
+
+.about-frame p{
+line-height:1.8;
+font-size:18px;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:30px;
+padding:12px 30px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+transition:.4s;
+}
+
+.back-btn:hover{
+transform:scale(1.1);
+}
+
+@media(max-width:768px){
+
+.about-frame{
+padding:25px;
+}
+
+.about-frame p{
+font-size:15px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="about-frame">
+
+<h1>ABOUT OUR CENTRE</h1>
+
+<p>
+
+Write your coaching centre introduction here...
+
+</p>
+
+<a href="index.html" class="back-btn">Back Home</a>
+
+</div>
+
+</body>
+</html>

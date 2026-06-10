@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Teachers</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url("images/background\ \(1\).jpg");
+
+background-size:cover;
+padding:40px;
+}
+
+h1{
+text-align:center;
+color:gold;
+margin-bottom:40px;
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+}
+
+.teacher{
+
+background:#161b22;
+
+padding:25px;
+
+border-radius:25px;
+
+text-align:center;
+
+transition:.5s;
+
+color:white;
+}
+
+.teacher:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 25px gold;
+}
+
+.teacher img{
+
+width:150px;
+
+height:150px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:20px;
+
+border:3px solid gold;
+}
+
+.teacher h2{
+
+color:gold;
+
+margin-bottom:10px;
+}
+
+.back{
+
+display:block;
+
+width:200px;
+
+margin:40px auto;
+
+background:gold;
+
+text-align:center;
+
+padding:12px;
+
+border-radius:40px;
+
+text-decoration:none;
+
+color:black;
+
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>OUR TEACHERS</h1>
+
+<div class="grid">
+
+<div class="teacher">
+<img src="images/teacher.jpeg">
+<h2>Alakh Pandey</h2>
+<p>Mathematics</p>
+<p>10 Years Experience</p>
+</div>
+
+<div class="teacher">
+<img src="images/ladyteacher.jpeg">
+<h2>Mansi Bhatt</h2>
+<p>Physics</p>
+<p>8 Years Experience</p>
+</div>
+
+<div class="teacher">
+<img src="images/teacher.jpeg">
+<h2>Teacher Name</h2>
+<p>Chemistry</p>
+<p>12 Years Experience</p>
+</div>
+
+<div class="teacher">
+<img src="images/ladyteacher.jpeg">
+<h2>Teacher Name</h2>
+<p>Biology</p>
+<p>9 Years Experience</p>
+</div>
+
+<div class="teacher">
+<img src="images/teacher.jpeg">
+<h2>Teacher Name</h2>
+<p>English</p>
+<p>7 Years Experience</p>
+</div>
+
+<div class="teacher">
+<img src="images/ladyteacher.jpeg">
+<h2>Teacher Name</h2>
+<p>Economics</p>
+<p>11 Years Experience</p>
+</div>
+
+</div>
+
+<a href="index.html" class="back">
+Back Home
+</a>
+
+</body>
+</html>
